@@ -28,14 +28,13 @@ img{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	margin-top: 16px;
-	margin-left: 16px;
-	margin-right: 16px;
+	margin: 16px;
 }
 
 .tuiles{
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
+	padding: 5px;
 }
 
 i{

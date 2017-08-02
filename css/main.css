@@ -39,7 +39,31 @@ img{
 }
 
 img:hover{
-	border: 1px solid rainbow;
+	-webkit-animation: coloring 2s linear infinite;
+	-moz-animation: coloring 2s linear infinite;
+	-o-animation: coloring 2s linear infinite;
+}
+
+@-webkit-keyframes coloring {
+	0%{border: 1px solid #f80c12;}
+	5.5%{border: 1px solid #ee1100;}
+	11%{border: 1px solid #ff3311;}
+	16.5%{border: 1px solid #ff4422;}
+	22%{border: 1px solid #ff6644;}
+	27.5%{border: 1px solid #ff9933;}
+	33%{border: 1px solid #feae2d;}
+	38.5%{border: 1px solid #ccbb33;}
+	44%{border: 1px solid #d0c310;}
+	49.5%{border: 1px solid #aacc22;}
+	55%{border: 1px solid #69d025;}
+	60.5%{border: 1px solid #22ccaa;}
+	66%{border: 1px solid #12bdb9;}
+	71.5%{border: 1px solid #11aabb;}
+	77%{border: 1px solid #4444dd;}
+	83.5%{border: 1px solid #3311bb;}
+	89%{border: 1px solid #3b0cbd;}
+	94.5%{border: 1px solid #442299;}
+	100%{border: 1px solid silver;}
 }
 
 i{

@@ -39,20 +39,7 @@ img{
 }
 
 img:hover{
-	-moz-animation: rotating 1s linear;
-	-webkit-animation: rotating 1s linear;
-	-o-animation: rotating 1s linear;
-}
-
-@-webkit-keyframes rotating {
-    from{
-        -webkit-transform: rotate(0deg);
-	border-radius:4px;
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-	border-radius: 100px;
-    }
+	border: 1px solid rainbow;
 }
 
 i{

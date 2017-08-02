@@ -10,7 +10,7 @@ body{
 	background-color: #111111;
 	width: 400px !important;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 h1{

@@ -50,5 +50,6 @@ footer{
 @media (max-width: 400px){
 	body{
 		margin-left: 0px !important;
+		float: left;
 	}
 }

@@ -39,9 +39,9 @@ img{
 }
 
 img:hover{
-	-moz-animation: rotating 2s linear;
-	-webkit-animation: rotating 2s linear;
-	-o-animation: rotating 2s linear;
+	-moz-animation: rotating 1s easy-in-out;
+	-webkit-animation: rotating 1s easy-in-out;
+	-o-animation: rotating 1s easy-in-out;
 }
 
 @-webkit-keyframes rotating {

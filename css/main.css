@@ -1,0 +1,47 @@
+/*==== GENERAL ====*/
+
+*{
+	font-family: "Arvo",courier,serif;
+	color: white;
+
+}
+
+body{
+	background-color: #111111;
+}
+
+h1{
+	text-align: center;
+}
+
+img{
+	padding: 0px 0px 0px 0px;
+	border-radius: 4px;
+	border: 1px solid silver;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 85px;
+	height: 85px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 16px;
+}
+
+.tuiles{
+	width: 100px;
+	height: 100px;
+}
+
+i{
+	font-size: 48;
+}
+
+footer{
+	position: absolute;
+	bottom: 8px !important;
+}

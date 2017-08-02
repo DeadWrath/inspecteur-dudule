@@ -10,7 +10,7 @@ body{
 	background-color: #111111;
 	width: 340px;
 	margin-left: 33%;
-	border-top: 1px solid purple;
+	border-top: 1px solid red;
 }
 
 h1{
@@ -49,6 +49,6 @@ footer{
 
 @media(max-device-width: 480px){
 	body{
-		margin-left: 70px;
+		margin-left: 35px;
 	}
 }

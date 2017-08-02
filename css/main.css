@@ -9,7 +9,8 @@
 body{
 	background-color: #111111;
 	width: 400px !important;
-	justify-content: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 h1{

@@ -38,6 +38,10 @@ img{
 	cursor: pointer;
 }
 
+.tuiles:hover{
+	filter: hue-rotate(360deg);
+}
+
 i{
 	font-size: 48;
 }

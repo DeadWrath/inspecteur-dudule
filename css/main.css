@@ -8,9 +8,9 @@
 
 body{
 	background-color: #111111;
-	width: 340px !important;
+	width: 340px;
 	margin-left: 33%;
-	border-top: 1px solid blue;
+	border-top: 1px solid purple;
 }
 
 h1{
@@ -45,4 +45,10 @@ i{
 footer{
 	position: absolute;
 	bottom: 8px !important;
+}
+
+@media(max-device-width: 480px){
+	body{
+		margin-left: 70px;
+	}
 }

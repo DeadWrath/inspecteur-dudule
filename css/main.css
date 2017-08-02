@@ -15,10 +15,8 @@ h1{
 }
 
 img{
-	padding: 0px 0px 0px 0px;
 	border-radius: 4px;
 	border: 1px solid silver;
-	margin: 8px;
 	width: 85px;
 	height: 85px;
 }
@@ -34,6 +32,7 @@ img{
 .tuiles{
 	width: 90px;
 	height: 90px;
+	margin: 8px;
 }
 
 i{

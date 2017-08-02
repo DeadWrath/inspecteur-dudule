@@ -39,9 +39,9 @@ img{
 }
 
 img:hover{
-	-webkit-animation: coloring 2s linear infinite;
-	-moz-animation: coloring 2s linear infinite;
-	-o-animation: coloring 2s linear infinite;
+	-webkit-animation: coloring 2s linear infinite alternate;
+	-moz-animation: coloring 2s linear infinite alternate;
+	-o-animation: coloring 2s linear infinite alternate;
 }
 
 @-webkit-keyframes coloring {

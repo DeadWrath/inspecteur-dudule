@@ -21,6 +21,7 @@ img{
 	border: 1px solid silver;
 	width: 85px;
 	height: 85px;
+	filter:greyscale(100%);
 }
 
 .container{
@@ -42,6 +43,7 @@ img:hover{
 	-webkit-animation: coloring 2s linear infinite alternate;
 	-moz-animation: coloring 2s linear infinite alternate;
 	-o-animation: coloring 2s linear infinite alternate;
+	filter:greyscale(0%);
 }
 
 @-webkit-keyframes coloring {

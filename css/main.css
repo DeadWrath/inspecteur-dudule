@@ -39,35 +39,23 @@ img{
 }
 
 img:hover{
-	animation: rotateIn;	
+	animation: rotating;	
 }
 
-@-webkit-keyframes rotateIn {
-            0% {
-               -webkit-transform-origin: center center;
-               -webkit-transform: rotate(0deg);
-            }
-            100% {
-               -webkit-transform-origin: center center;
-               -webkit-transform: rotate(360deg);
-            }
-         }
-         
-         @keyframes rotateIn {
-            0% {
-               transform-origin: center center;
-               transform: rotate(360deg);
-            }
-            100% {
-               transform-origin: center center;
-               transform: rotate(0);
-            }
-         }
-         
-         .rotateIn {
-            -webkit-animation-name: rotateIn;
-            animation-name: rotateIn;
-         }
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+	    border-radius:4px;
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+	border-radius: 100px;
+    }
+}
+ 
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+}
 
 i{
 	font-size: 48;

@@ -18,10 +18,9 @@ h1{
 
 img{
 	border-radius: 4px;
-	border: 1px solid silver;
+	border: 2px solid silver;
 	width: 85px;
 	height: 85px;
-	filter:grayscale(100%);
 }
 
 .container{
@@ -43,29 +42,28 @@ img:hover{
 	-webkit-animation: coloring 2s linear infinite alternate;
 	-moz-animation: coloring 2s linear infinite alternate;
 	-o-animation: coloring 2s linear infinite alternate;
-	filter:grayscale(0%);
 }
 
 @-webkit-keyframes coloring {
-	0%{border: 1px solid #f80c12;}
-	5%{border: 1px solid #ee1100;}
-	11%{border: 1px solid #ff3311;}
-	16%{border: 1px solid #ff4422;}
-	22%{border: 1px solid #ff6644;}
-	27%{border: 1px solid #ff9933;}
-	33%{border: 1px solid #feae2d;}
-	38%{border: 1px solid #ccbb33;}
-	44%{border: 1px solid #d0c310;}
-	49%{border: 1px solid #aacc22;}
-	55%{border: 1px solid #69d025;}
-	60%{border: 1px solid #22ccaa;}
-	66%{border: 1px solid #12bdb9;}
-	71%{border: 1px solid #11aabb;}
-	77%{border: 1px solid #4444dd;}
-	83%{border: 1px solid #3311bb;}
-	89%{border: 1px solid #3b0cbd;}
-	94%{border: 1px solid #442299;}
-	100%{border: 1px solid #3f2483;}
+	0%{border: 2px solid #f80c12;}
+	5%{border: 2px solid #ee1100;}
+	11%{border: 2px solid #ff3311;}
+	16%{border: 2px solid #ff4422;}
+	22%{border: 2px solid #ff6644;}
+	27%{border: 2px solid #ff9933;}
+	33%{border: 2px solid #feae2d;}
+	38%{border: 2px solid #ccbb33;}
+	44%{border: 2px solid #d0c310;}
+	49%{border: 2px solid #aacc22;}
+	55%{border: 2px solid #69d025;}
+	60%{border: 2px solid #22ccaa;}
+	66%{border: 2px solid #12bdb9;}
+	71%{border: 2px solid #11aabb;}
+	77%{border: 2px solid #4444dd;}
+	83%{border: 2px solid #3311bb;}
+	89%{border: 2px solid #3b0cbd;}
+	94%{border: 2px solid #442299;}
+	100%{border: 2px solid #3f2483;}
 }
 
 i{

@@ -47,9 +47,8 @@ footer{
 	bottom: 8px !important;
 }
 
-@media (max-width: 400px){
+@media (max-device-width: 480px){
 	body{
 		margin-left: 0px !important;
-		float: left;
 	}
 }

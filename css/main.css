@@ -48,6 +48,6 @@ footer{
 
 @media (max-width: 400px){
 	body{
-		margin-left: none !important;
+		margin-left: 8px;
 	}
 }

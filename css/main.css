@@ -38,7 +38,7 @@ img{
 	cursor: pointer;
 }
 
-.tuiles:hover{
+img:hover{
 	animation: rotateIn;	
 }
 

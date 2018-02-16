@@ -9,7 +9,7 @@ Someone try to explain he's point o view but goes to deep ? Use the TouchingStar
 If you just want to stop a bad conversation who goes to far, you can simply use the USUL button to stop definitly that mess.
 
 
-============================================================================================================================
+=================================================================================
 
 # Inspecteur Dudule
 
